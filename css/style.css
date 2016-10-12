@@ -8075,7 +8075,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
-  margin-top: -10px;
+  /*margin-top: -10px;*/
 }
 @media screen and (max-width: 768px) {
   .fh5co-feature:hover, .fh5co-feature.active, .fh5co-figure:hover, .fh5co-figure.active {

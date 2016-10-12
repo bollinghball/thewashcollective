@@ -7848,6 +7848,12 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-features-3 .fh5co-text-wrap {
   margin-bottom: 2em;
 }
+
+#fh5co-features-2 .fh5co-icon > img {
+  width: 50%;
+  height: auto;
+}
+
 @media screen and (max-width: 1200px) {
   #fh5co-features-3 .fh5co-text-wrap {
     margin-top: 0em;

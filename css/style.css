@@ -2433,6 +2433,10 @@ pre code {
     width: 48%;
   }
 
+  .col-md-3-top {
+    width: 50%;
+  }
+
   .col-md-3-2 {
     width: 33.333%;
   }

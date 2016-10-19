@@ -641,9 +641,34 @@
 	};
 
 	
-	
+	// Shopify Buy SDK
 
-	
+	var shopClient = ShopifyBuy.buildClient({
+  		apiKey: 'e6eb8fbbf2846b18917ba23f2cad5b11',
+  		domain: 'the-wash-collective.myshopify.com',
+  		appId: '6'
+	});
+
+	shopClient.fetchProduct(7903307208).then(function(product) {
+  		console.log(product);
+	})
+	.catch(function() {
+		console.log('Request failed');
+	});
+
+	// var cart;
+	// shopClient.createCart().then(function (newCart) {
+  	// 	cart = newCart;
+  	// 	// do something with updated cart
+	// });
+
+	// cart.addVariants({variant: product.selectedVariant, quantity: 1}).then(function (cart) {
+  	// 	// do something with updated cart
+	// });
+
+	// document.location.href = cart.checkoutUrl;
+
+
 
 	// Document on load.
 	$(function(){
